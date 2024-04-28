@@ -1,0 +1,17 @@
+.addCategory {
+  position: relative;
+  width: 150px;
+  display: flex;
+  flex-direction: column;
+}
+
+.dropdown {
+  display: flex;
+  visibility: hidden;
+  position: absolute;
+  top: 100%;
+}
+
+.visible {
+  visibility: visible;
+}
